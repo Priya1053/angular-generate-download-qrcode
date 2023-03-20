@@ -1,0 +1,6 @@
+<table style="text-align:right;" class="center">
+<qr-code [value]="dataToString" qr-CodeUrl="onCodeChange($event)" width="100%" errorCorrectionLevel="L"></qr-code><br>
+<tr>
+<a [href]="url" download="new.pdf">download QR code</a>
+</tr>
+</table>
